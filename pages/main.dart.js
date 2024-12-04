@@ -93843,7 +93843,7 @@ s=o==null?A.mZ:o
 if(q.d.length===0){o=t.P
 if(s===A.mZ)B.J0("Direct Normal Irradiance \tSpecific PV Power Output \tGlobal Horizontal Irradiance \tAir Temperature \tAverage Slope of Terrain\tDistance from Demand/Load Centers\n0.27\t0.27\t0.27\t0.09\t0.06\t0.04\n4\t4\t4.5\t25\t8\t20\nmin\tmin\tmin\tmax\tmax\tmax\n").bJ(new B.as0(q),o)
 else B.J0("Mean Wind Speed at 100m height\tMean Power Density at 100m height\tOrography\tRoughness length\tDistance from Demand/Load Centers\n0.3440\t0.3440\t0.1650\t0.1000\t0.0470\n5\t500\t200\t0.2\t20\nmin\tmin\tmin\tmax\tmax\n").bJ(new B.as1(q),o)}o=B.dy("Input Screen - "+s.gAu(0),p,p,p,p,p,p,p)
-r=B.a([B.nx(A.aOZ,new B.as2(q,a))],t.p)
+r=B.a([B.nx(A.aOY,new B.as2(q,a))],t.p)
 if(q.d.length!==0)r.push(B.nx(A.aON,new B.as3(q,a)))
 if(q.d.length!==0)r.push(B.nx(A.aOV,new B.as4(q)))
 r.push(new B.cT(A.PC,B.nx(A.aP2,new B.as5(q)),p))
@@ -93915,7 +93915,7 @@ else s.w="Invalid file format. Please try again."},
 $S:0}
 B.asq.prototype={
 $1(a){var s=this.a,r=this.b
-return B.JC(B.a([B.mw(A.aOY,new B.aso(s,r,a),null),B.mw(A.aP5,new B.asp(s,r,a),null)],t.p),A.aOJ,A.aOT)},
+return B.JC(B.a([B.mw(A.aOZ,new B.aso(s,r,a),null),B.mw(A.aP5,new B.asp(s,r,a),null)],t.p),A.aOJ,A.aOT)},
 $S:80}
 B.aso.prototype={
 $0(){var s=this.a
@@ -104503,8 +104503,8 @@ A.aOU=new B.bX("Input Criterias Text",null,null,null,null,null,null,null,null,nu
 A.aOV=new B.bX("Add Location",null,null,null,null,null,null,null,null,null)
 A.aOW=new B.bX("Save as PDF",null,null,null,null,null,null,null,null,null)
 A.Ji=new B.bX("Cancel",null,null,null,null,null,null,null,null,null)
-A.aOY=new B.bX("Replace",null,null,null,null,null,null,null,null,null)
-A.aOZ=new B.bX("Input Criterias",null,null,null,null,null,null,null,null,null)
+A.aOY=new B.bX("Input Criteria",null,null,null,null,null,null,null,null,null)
+A.aOZ=new B.bX("Replace",null,null,null,null,null,null,null,null,null)
 A.aP_=new B.bX("Invalid location input. Please try again.",null,null,null,null,null,null,null,null,null)
 A.aP0=new B.bX("Input Locations Text",null,null,null,null,null,null,null,null,null)
 A.aP2=new B.bX("Add criteria",null,null,null,null,null,null,null,null,null)

@@ -264,7 +264,7 @@ class _InputScreenState extends State<InputScreen> {
                       }
                   });
             },
-            child: const Text("Input Criterias"),
+            child: const Text("Input Criteria"),
           ),
           if (criterias.isNotEmpty)
             FilledButton(
